@@ -1,18 +1,17 @@
 def create_an_empty_array
-  letters = []
-
+  array = []
 end
 
 def create_an_array
-  letters = ["a", "b", "c", "d"]
+  array = [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-  array << element
+  array.push (element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift element
+  array.unshift (element)
 end
 
 def remove_element_from_end_of_array(array)
